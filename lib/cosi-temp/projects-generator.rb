@@ -1,0 +1,3 @@
+class ProjectsGenerator < TempGenerator
+
+end

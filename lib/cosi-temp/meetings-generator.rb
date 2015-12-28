@@ -1,0 +1,3 @@
+class MeetingsGenerator < TempGenerator
+
+end

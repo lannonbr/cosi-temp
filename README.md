@@ -19,4 +19,3 @@ When complete, the commands needed include
 
 - `cosi-temp meeting`: This will create a meeting minutes entry in the current directory with the current date used.
 - `cosi-temp project -name "Foobar Release 1.4.0" -author "Benjamin Lannon"`: This will create a project updates post that has a header which is filled out using the -name and -author flags.
-- 

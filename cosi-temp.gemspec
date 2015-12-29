@@ -6,7 +6,9 @@ Gem::Specification.new do |s|
   s.description = "A simple CLI tool to create a Project Update post or Meeting Minutes entry for the Clarkson Open Source Institute"
   s.authors = ["Benjamin Lannon"]
   s.email = 'brlannon118@gmail.com'
-  s.files = ["lib/cosi-temp.rb"]
+  s.files = `git ls-files`.split($\)
+  s.require_paths = ["lib"]
+  s.executables = ["cosi-temp"]
   s.homepage = 'https://github.com/lannonbr/cosi-temp'
   s.license = 'MIT'
 end

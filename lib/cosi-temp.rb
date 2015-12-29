@@ -5,3 +5,5 @@ class CosiTemp
     puts "Hello World"
   end
 end
+
+require 'cosi-temp/meetings-generator'

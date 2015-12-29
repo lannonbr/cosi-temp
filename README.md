@@ -1,5 +1,7 @@
 # Cosi-Temp
 
+[![Build Status](https://travis-ci.org/lannonbr/cosi-temp.svg?branch=master)](https://travis-ci.org/lannonbr/cosi-temp)
+
 ### Note: The project is does not have an initial release yet
 
 cosi-temp is a simple CLI tool for the [cosi-lab](https://github.com/cosi-lab) that is in

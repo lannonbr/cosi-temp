@@ -1,7 +1,6 @@
 require 'date'
 
 class MeetingsGenerator < TempGenerator
-
   def initialize(date)
     super(date)
     @filename = gen_date
@@ -10,7 +9,7 @@ class MeetingsGenerator < TempGenerator
   end
 
   def to_file
-    
+
   end
 
   private
@@ -37,5 +36,4 @@ class MeetingsGenerator < TempGenerator
 
     array
   end
-
 end

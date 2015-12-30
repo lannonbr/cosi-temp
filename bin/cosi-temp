@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 require 'cosi-temp'
 
-puts MeetingsGenerator.new(Date.today).class
+CosiTemp.new

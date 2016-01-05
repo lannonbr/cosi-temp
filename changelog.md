@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.1 (January 5, 2016)
+## 1.0.2 (January 5, 2016)
 
 - Refactored to_file method from ProjectsGenerator and MeetingsGenerator to be stored in TempGenerator
 

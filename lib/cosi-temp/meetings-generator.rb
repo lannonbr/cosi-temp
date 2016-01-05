@@ -3,25 +3,14 @@ require 'date'
 class MeetingsGenerator < TempGenerator
   def initialize(date)
     super(date)
-    @filename = gen_date
     @title = gen_title
+    @filename = gen_filename
     @file_array = create_file
-  end
-
-  def to_file
-    if File.exist? @filename
-      puts "The file already exists. Quitting"
-      return
-    end
-    File.open(@filename, 'w') do |f|
-      @file_array.each { |line| f.write line }
-    end
-    puts "File written to #{@filename}"
   end
 
   private
 
-  def gen_date
+  def gen_filename
     "#{@date.strftime('%Y-%m-%d')}-Meeting-Minutes.md"
   end
 

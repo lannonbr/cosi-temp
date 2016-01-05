@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'cosi-temp'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.date = '2016-01-05'
   s.summary = "Cosi Temp"
   s.description = "A simple CLI tool to create a Project Update post or Meeting Minutes entry for the Clarkson Open Source Institute"
